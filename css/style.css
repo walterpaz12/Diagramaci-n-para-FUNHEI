@@ -221,6 +221,7 @@ footer i:hover{
 #informacion{
 	
 	background-color: var(--color-negro);
+	
 }
 
 #informacion p{
@@ -261,6 +262,7 @@ margin-top: 7%;
 	border: 0;
 	border-radius: 0;
 	padding: 5px 10px;
+	margin-bottom: 2%;
 }
 
 #ayuda{
@@ -484,6 +486,101 @@ form#contacto textarea{
 	font-weight: bolder;
     color: var(--color-rojizo);
 }
+
+
+#galeria{
+	
+	background: url("../img/warm-embers-drawing-undulating-lines-on-dark-background-in-4k.jpg");
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	padding-top: 8%;
+   
+	
+
+	
+}
+
+#galeria h1{
+	
+	font-family: Open Sans;	
+	font-size: 70px;
+	font-weight: bolder;
+	color: var(--color-boton-hover);
+	margin-bottom: 15%;
+}
+#galeria h1:hover{
+
+	color: var(--color-blanco);
+
+}
+
+#galeria p{
+	
+	font-family: Open Sans;	
+	font-size: 15px;
+	color: var(--color-blanco);
+	font-weight: 700;
+	
+}
+
+#galeria h2{
+	
+	font-family: Open Sans;	
+	font-size: 40px;
+	font-weight: bolder;
+    color: var(--color-boton-hover);
+}
+
+#galeria li{
+	
+	font-family: Open Sans;	
+	text-align: left;
+	font-size: 15px;
+	color: var(--color-boton-hover);
+	font-weight: 500;
+	letter-spacing: 1px;
+	
+}
+
+	
+.btn-galeria {
+	font-family: Open Sans;
+    background: var(--color-rojizo); 
+	color: #FFFFFF;
+	text-transform: uppercase;
+	border-radius: 0px;
+	padding: 20px;
+	border: 0px;
+	letter-spacing: 1px;
+	text-align: center;
+	margin-bottom: 3%;
+}
+
+.btn-galeria:hover{
+	
+	background: var(--color-principal);
+}
+
+
+.texto-galeria{
+	margin-left: 10%;
+	margin-top:14%;
+}
+
+.galeria-foto{
+	
+	margin-top:15%;
+	
+}
+
+.saltando {
+	width: 50%;
+	margin-top: 15%; 
+}
+
+
+
 
 /*Media Queries*/
 
